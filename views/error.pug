@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+ h1 Oops something went wrong
+    article.grid-container
+        .grid-x
+
+            p= `${error.message}: ${error.status}`
