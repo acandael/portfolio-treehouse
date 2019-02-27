@@ -2,59 +2,62 @@
   "projects": [
     {
       "id": 0,
-      "project-name": "Random Quote Generator",
+      "project_name": "Random Quote Generator",
       "description": "Upon a click a random quote is generated",
       "technologies": ["Javascript"],
-      "live-link": "https://acandael.github.io/a-random-quote-generator/",
-      "github-link": "https://github.com/acandael/a-random-quote-generator",
-      "image-url": [
-        "/images/random-quote-generator-1200.jpg",
-        "/images/random-quote-generator-550.jpg"
+      "live_link": "https://acandael.github.io/a-random-quote-generator/",
+      "github_link": "https://github.com/acandael/a-random-quote-generator",
+      "image_url": [
+        "/static/images/random-quote-generator-1200.jpg",
+        "/static/images/random-quote-generator-550.jpg"
       ]
     },
     {
       "id": 1,
-      "project-name": "Number Guesser",
+      "project_name": "Number Guesser",
       "description": "Guess a number between 1 and 10",
       "technologies": ["Javascript", "Skeleton.css"],
-      "live-link": "https://acandael.github.io/number-guesser/",
-      "github-link": "https://github.com/acandael/number-guesser",
-      "image-url": [
-        "/images/number-guesser-1200.jpg",
-        "/images/number-guesser-550.jpg"
+      "live_link": "https://acandael.github.io/number-guesser/",
+      "github_link": "https://github.com/acandael/number-guesser",
+      "image_url": [
+        "/static/images/number-guesser-1200.jpg",
+        "/static/images/number-guesser-550.jpg"
       ]
     },
     {
       "id": 2,
-      "project-name": "Interactive Form",
+      "project_name": "Interactive Form",
       "description": "Register for a technological conference",
       "technologies": ["Javascript", "jQuery"],
-      "live-link": "https://acandael.github.io/interactive-form/",
-      "github-link": "https://github.com/acandael/interactive-form",
-      "image-url": [
-        "/images/interactive-form.jpg",
-        "/images/interactive-form-550.jpg"
+      "live_link": "https://acandael.github.io/interactive-form/",
+      "github_link": "https://github.com/acandael/interactive-form",
+      "image_url": [
+        "static/images/interactive-form.jpg",
+        "static/images/interactive-form-550.jpg"
       ]
     },
     {
       "id": 3,
-      "project-name": "Phrase Hunter",
+      "project_name": "Phrase Hunter",
       "description": "Word Guessing game build along object oriented principals",
       "technologies": ["Javascript"],
-      "live-link": "https://acandael.github.io/oop-game-show-app/",
-      "github-link": "https://github.com/acandael/oop-game-show-app",
-      "image-url": ["/images/oop-game-1200.jpg", "/images/oop-game-550.jpg"]
+      "live_link": "https://acandael.github.io/oop-game-show-app/",
+      "github_link": "https://github.com/acandael/oop-game-show-app",
+      "image_url": [
+        "static/images/oop-game-1200.jpg",
+        "static/images/oop-game-550.jpg"
+      ]
     },
     {
       "id": 4,
-      "project-name": "Awesome Startup",
+      "project_name": "Awesome Startup",
       "description": "An employee startup directory",
       "technologies": ["Javascript", "JSON"],
-      "live-link": "https://acandael.github.io/awesome-startup/",
-      "github-link": "https://github.com/acandael/awesome-startup",
-      "image-url": [
-        "/images/awesome-startup-1200.jpg",
-        "/images/awesome-startup-550.jpg"
+      "live_link": "https://acandael.github.io/awesome-startup/",
+      "github_link": "https://github.com/acandael/awesome-startup",
+      "image_url": [
+        "static/images/awesome-startup-1200.jpg",
+        "static/images/awesome-startup-550.jpg"
       ]
     }
   ]

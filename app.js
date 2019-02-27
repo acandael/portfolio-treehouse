@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
   res.render('index', { data });
 });
 
+app.get('/project/:id', (req, res) => {
+  res.render('project', { data, id: req.params.id });
+});
+
 // Error Handling
 //404 error for routes that are not found
 app.use((req, res, next) => {
