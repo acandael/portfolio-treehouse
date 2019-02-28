@@ -5,12 +5,16 @@ const data = require('./data.json');
 // set up view engine
 app.set('view engine', 'pug');
 
-// static routes
+// static route
 app.use('/static', express.static('public'));
 
 // routes
 app.get('/', (req, res) => {
   res.render('index', { data });
+});
+
+app.get('/about', (req, res) => {
+  res.render('about');
 });
 
 app.get('/project/:id', (req, res) => {
@@ -27,7 +31,7 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
   res.locals.error = err;
-  res.render('error'); //error.pug
+  res.render('error');
 });
 
 const PORT = process.env.PORT || 3000;

@@ -32,8 +32,8 @@
       "live_link": "https://acandael.github.io/interactive-form/",
       "github_link": "https://github.com/acandael/interactive-form",
       "image_url": [
-        "static/images/interactive-form.jpg",
-        "static/images/interactive-form-550.jpg"
+        "/static/images/interactive-form.jpg",
+        "/static/images/interactive-form-550.jpg"
       ]
     },
     {
@@ -44,8 +44,8 @@
       "live_link": "https://acandael.github.io/oop-game-show-app/",
       "github_link": "https://github.com/acandael/oop-game-show-app",
       "image_url": [
-        "static/images/oop-game-1200.jpg",
-        "static/images/oop-game-550.jpg"
+        "/static/images/oop-game-1200.jpg",
+        "/static/images/oop-game-550.jpg"
       ]
     },
     {
@@ -56,8 +56,8 @@
       "live_link": "https://acandael.github.io/awesome-startup/",
       "github_link": "https://github.com/acandael/awesome-startup",
       "image_url": [
-        "static/images/awesome-startup-1200.jpg",
-        "static/images/awesome-startup-550.jpg"
+        "/static/images/awesome-startup-1200.jpg",
+        "/static/images/awesome-startup-550.jpg"
       ]
     }
   ]
